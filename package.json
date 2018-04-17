@@ -1,0 +1,29 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "description": "first hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu-christina/hugo.git"
+  },
+  "author": "christina lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lu-christina/hugo/issues"
+  },
+  "homepage": "https://github.com/lu-christina/hugo#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.20.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "./deploy.sh"
+    }
+  }
+
+}
